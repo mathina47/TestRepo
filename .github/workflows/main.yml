@@ -1,0 +1,8 @@
+name: FirstWorkflow
+on: push
+jobs:
+  Myfirstjob:
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "Mathina's First Project"
+   
